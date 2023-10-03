@@ -111,7 +111,7 @@ PRINTQUEUES
   - -dx: double sided, -sx: single sided, -nb: no banner
   - Most other printers have user restrictions.
     See https://dochub.comp.nus.edu.sg/cf/guides/printing/print-queues.
-  - For the full list of printqueues, generate with the -l option, or view the SOURCE.
+  - For the full list of printqueues, generate with the (list) command, or view the SOURCE.
 
 IMPLEMENTATION
   Roughly speaking, the print command will:
@@ -144,7 +144,7 @@ LICENSE
 
 GENERATE README
   ./socprint.sh help > README \
-  && echo "List of valid printqueues, generated with list command on 5 March 2021\n" >> README \
+  && echo "List of valid printqueues, generated with list command on 3 October 2023\n" >> README \
   && ./socprint.sh list d-lee >> README
 
 EOF
